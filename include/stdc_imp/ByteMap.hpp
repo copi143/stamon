@@ -6,11 +6,11 @@
 	Description: 字节串map
 */
 
-#ifndef BYTEMAP_HPP
-#define BYTEMAP_HPP
+#pragma once
 
 #include"strie.h"
 #include"ArrayList.hpp"
+#include "stmlib.hpp"
 
 template<typename T>
 class ByteMap {
@@ -73,5 +73,3 @@ class ByteMap {
 			return result;
 		}
 };
-
-#endif

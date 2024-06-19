@@ -9,7 +9,7 @@
 #ifndef NULLTYPE_CPP
 #define NULLTYPE_CPP
 
-#include"DataType.hpp"
+#include <stamon/DataType.hpp>
 
 namespace stamon {
 	namespace datatype {

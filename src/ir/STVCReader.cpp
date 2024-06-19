@@ -11,7 +11,7 @@
 
 #include"Exception.hpp"
 #include"NumberMap.hpp"
-#include"DataType.hpp"
+#include <stamon/DataType.hpp>
 #include"String.hpp"
 #include"AstIR.cpp"
 

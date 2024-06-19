@@ -18,7 +18,7 @@
 #include"StringMap.hpp"
 #include"DataType.hpp"
 #include"ObjectManager.cpp"
-#include"Ast.hpp"
+#include"ast.hpp"
 #include"STVCReader.cpp"
 #include"Preprocessor.cpp"
 

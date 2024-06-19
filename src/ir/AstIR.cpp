@@ -11,12 +11,12 @@
 
 #include"String.hpp"
 #include"Stack.hpp"
-#include"DataType.hpp"
+#include <stamon/DataType.hpp>
 #include"NumberMap.hpp"
 #include"ByteMap.hpp"
 #include"StringMap.hpp"
 #include"ArrayList.hpp"
-#include"Ast.hpp"
+#include <stamon/ast.hpp>
 
 //为了方便，我定义了宏
 //这些宏只能在本文件中使用

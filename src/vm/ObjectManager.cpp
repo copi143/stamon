@@ -20,7 +20,7 @@
 //这个宏用来简便FreeScopeTrash方法的开发
 //这个宏只能在ObjectManager.cpp当中使用
 
-#include"DataType.hpp"
+#include <stamon/DataType.hpp>
 #include"ArrayList.hpp"
 #include"Stack.hpp"
 #include"stack.h"

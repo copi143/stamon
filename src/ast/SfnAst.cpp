@@ -9,22 +9,18 @@
 #ifndef SFNAST_CPP
 #define SFNAST_CPP
 
-#include"Ast.hpp"
+#include <stamon/ast.hpp>
 #include"String.hpp"
 
 namespace stamon {
 	namespace ast {
-		class AstSFN : public AstNode {
-			public:
-				AstSFN() : AstNode() {}
-				AstSFN(AstIdentifier* port, AstIdentifier* result) : AstNode() {
+				AstSFN::AstSFN(AstIdentifier* port, AstIdentifier* result) : AstNode() {
 					children->add(port);
 					children->add(result);
 				}
-				virtual int getType() {
+				int AstSFN::getType() {
 					return AstSFNType;
 				}
-		};
 	}
 }
 

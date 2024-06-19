@@ -16,6 +16,7 @@
 
 class BinaryWriter {
     public:
+        FILE* fstream;
         STMException* ex;
 
         BinaryWriter();

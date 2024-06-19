@@ -24,6 +24,12 @@ using namespace stamon;
 #include<unistd.h>
 #endif
 
+#include "stack.h"
+#include "strie.h"
+
+// LineReader
+ArrayList<String> ImportPaths;
+
 void getHelpInformation();  //输出帮助信息
 
 String getNoEndingSeparatorPath(String path);	//获取末尾没有分隔符的路径

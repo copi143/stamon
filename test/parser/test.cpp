@@ -16,12 +16,12 @@
 #include"String.hpp"
 #include"LineReader.hpp"
 #include"StringMap.hpp"
-#include"DataType.hpp"
-#include"ObjectManager.cpp"
-#include"Ast.hpp"
-#include"STVCReader.cpp"
-#include"Lexer.cpp"
-#include"Parser.cpp"
+#include <stamon/DataType.hpp>
+#include"vm/ObjectManager.cpp"
+#include <stamon/ast.hpp>
+#include"ir/STVCReader.cpp"
+#include"compiler/Lexer.cpp"
+#include"compiler/Parser.cpp"
 
 using namespace stamon::ir;
 using namespace stamon::datatype;

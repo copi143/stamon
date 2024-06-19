@@ -9,7 +9,7 @@
 #ifndef STRINGTYPE_CPP
 #define STRINGTYPE_CPP
 
-#include"DataType.hpp"
+#include <stamon/DataType.hpp>
 #include"String.hpp"
 
 namespace stamon {

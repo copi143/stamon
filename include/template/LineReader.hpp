@@ -10,7 +10,10 @@
 #define LINEREADER_HPP
 
 #include"String.hpp"
-#include"Exception.hpp"
+#  include "Exception.hpp"
+#include "ArrayList.hpp"
+
+extern ArrayList<String> ImportPaths;
 
 class LineReader {
 	public:

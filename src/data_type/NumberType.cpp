@@ -9,7 +9,8 @@
 #ifndef NUMBERTYPE_CPP
 #define NUMBERTYPE_CPP
 
-#include"DataType.hpp"
+#include <stamon/DataType.hpp>
+
 #include"stmlib.hpp"
 
 namespace stamon {

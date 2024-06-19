@@ -9,7 +9,8 @@
 #ifndef STRINGMAP_CPP
 #define STRINGMAP_CPP
 
-#include"String.hpp"
+#  include "String.hpp"
+#include "strie.h"
 
 template <typename T>
 class StringMap {

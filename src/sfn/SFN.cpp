@@ -15,8 +15,8 @@
 
 #define STAMON_SFN_FUNCTIONS_MAX 65536  //SFN的库函数个数最大值
 
-#include"ObjectManager.cpp"
-#include"DataType.hpp"
+#include"vm/ObjectManager.cpp"
+#include <stamon/DataType.hpp>
 #include"Exception.hpp"
 
 #define SFN_PARA_LIST \

@@ -6,8 +6,7 @@
 	Description: 动态数组
 */
 
-#ifndef ARRAYLIST
-#define ARRAYLIST
+#pragma once
 
 #include"stdlib.h"
 
@@ -130,5 +129,3 @@ class ArrayList {
 
 
 };
-
-#endif

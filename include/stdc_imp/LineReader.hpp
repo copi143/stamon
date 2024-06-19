@@ -6,8 +6,7 @@
 	Description: 行阅读器
 */
 
-#ifndef LINEREADER_HPP
-#define LINEREADER_HPP
+#pragma once
 
 #include"Exception.hpp"
 #include"String.hpp"
@@ -19,7 +18,7 @@
 #define FILE_ERR { THROW("file opening error") return; }
 //这个宏用于简写，并且该宏只能在本文件中使用
 
-ArrayList<String> ImportPaths;
+extern ArrayList<String> ImportPaths;
 
 class LineReader {
 		int size;
@@ -105,5 +104,3 @@ class LineReader {
 };
 
 #undef FILE_ERR
-
-#endif

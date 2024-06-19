@@ -6,11 +6,10 @@
 	Description: 一些杂糅的库定义
 */
 
+#pragma once
+
 //这个库原本叫做clib.h
 //由于需要引入c++代码，所以后缀改为hpp，顺便把文件名改为stmlib
-
-#ifndef STMLIB_HPP
-#define STMLIB_HPP
 
 #include"String.hpp"
 
@@ -67,5 +66,3 @@ String toString(bool x) {
 		return String((char*)"false");
 	}
 }
-
-#endif
