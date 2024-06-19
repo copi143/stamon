@@ -16,6 +16,9 @@
 
 class BinaryReader {
 	public:
+		FILE* stream;
+		int size;
+		char* buffer;
 		STMException* ex;
 
 		BinaryReader() {}

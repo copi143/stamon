@@ -9,7 +9,7 @@
 #ifndef PARSER_CPP
 #define PARSER_CPP
 
-#include"Ast.hpp"
+#include <stamon/ast.hpp>
 #include"Stack.hpp"
 #include"StringMap.hpp"
 #include"FileMap.hpp"

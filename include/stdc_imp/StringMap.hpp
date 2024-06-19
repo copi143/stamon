@@ -6,11 +6,12 @@
 	Description: 字符串map
 */
 
-#ifndef STRINGMAP_CPP
-#define STRINGMAP_CPP
+#pragma once
 
 #include"strie.h"
-#include"String.hpp"
+#include "String.hpp"
+#include "ArrayList.hpp"
+#include "stmlib.hpp"
 
 template <typename T>
 class StringMap {
@@ -108,5 +109,3 @@ ArrayList<list_T> StringMap<T>::getValList() {
 
 	return result;
 }
-
-#endif

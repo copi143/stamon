@@ -7,11 +7,11 @@
 #include"Stack.hpp"
 #include"String.hpp"
 #include"StringMap.hpp"
-#include"DataType.hpp"
-#include"ObjectManager.cpp"
-#include"Ast.hpp"
-#include"STVCReader.cpp"
-#include"Lexer.cpp"
+#include <stamon/DataType.hpp>
+#include"vm/ObjectManager.cpp"
+#include <stamon/ast.hpp>
+#include"ir/STVCReader.cpp"
+#include"compiler/Lexer.cpp"
 
 using namespace stamon::ir;
 using namespace stamon::datatype;

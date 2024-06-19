@@ -6,12 +6,12 @@
         Description:
         * 这里对Ast进行了基本的定义
         * 如果你想要引用所有的Ast源码，只要写入以下代码即可：
-        #include"Ast.hpp"
+        #include"ast.hpp"
         using namespace stamon::ast;
 */
 
-#ifndef AST_HPP
-#define AST_HPP
+#ifndef STAMON_AST_HPP
+#define STAMON_AST_HPP
 
 #include "ArrayList.hpp"
 #include "String.hpp"
@@ -89,38 +89,17 @@ namespace stamon {
 				int lineNo;			//语法分析时用于显示行号
 				String filename;	//语义分析时用于显示文件名
 
-				AstNode() {
-					//构造函数
-					children = new ArrayList<AstNode*>();
-				}
+				AstNode();
 
-				AstNode(int line) {
-					//构造函数
-					children = new ArrayList<AstNode*>();
-					lineNo = line;
-				}
+				explicit AstNode(int line);
 
-				virtual int ChildrenNum() {
-					//子节点数量
-					return children->size();
-				}
+				virtual int ChildrenNum();
 
-				virtual ArrayList<AstNode*> *Children() {
-					//获得子节点列表
-					return children;
-				}
+				virtual ArrayList<AstNode*> *Children();
 
-				virtual int getType() {
-					//获得节点类型
-					return AstNodeType;
-				}
+				virtual int getType();
 		};
 	}
 }
-
-#include "CodeLogicAst.cpp"
-#include "ExprAst.cpp"
-#include "LeafAst.cpp"
-#include "SfnAst.cpp"
 
 #endif

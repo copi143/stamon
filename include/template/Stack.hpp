@@ -8,6 +8,8 @@
 #ifndef STACK_CPP
 #define STACK_CPP
 
+#include "stack.h"
+
 template <typename T>
 class Stack {
 	STACK* stack;

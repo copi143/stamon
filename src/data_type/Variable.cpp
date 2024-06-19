@@ -10,7 +10,7 @@
 #ifndef VARIABLE_CPP
 #define VARIABLE_CPP
 
-#include"DataType.hpp"
+#include <stamon/DataType.hpp>
 
 namespace stamon {
     namespace datatype {

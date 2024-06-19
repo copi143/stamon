@@ -11,8 +11,7 @@
 #ifndef METHODTYPE_CPP
 #define METHODTYPE_CPP
 
-#include"DataType.hpp"
-#include"Ast.hpp"
+#include <stamon/DataType.hpp>
 
 namespace stamon {
 	namespace datatype {

@@ -9,23 +9,26 @@
 #ifndef STAMON_HPP
 #define STAMON_HPP
 
+// 库
 #include"ArrayList.hpp"
 #include"NumberMap.hpp"
 #include"Stack.hpp"
 #include"String.hpp"
 #include"LineReader.hpp"
-#include"StringMap.hpp"
-#include"DataType.hpp"
-#include"ObjectManager.cpp"
-#include"Ast.hpp"
-#include"STVCReader.cpp"
-#include"AstIR.cpp"
-#include"Compiler.hpp"
-#include"AstRunner.cpp"
-#include"SFN.cpp"
+#include "StringMap.hpp"
 #include"Exception.hpp"
 #include"BinaryWriter.hpp"
 #include"BinaryReader.hpp"
+
+// stamon
+#include"data_type/DataType.hpp"
+#include"vm/ObjectManager.cpp"
+#include"ast/ast.hpp"
+#include"ir/STVCReader.cpp"
+#include"ir/AstIR.cpp"
+#include"compiler/Compiler.hpp"
+#include"vm/AstRunner.cpp"
+#include"sfn/SFN.cpp"
 
 #define WRITE(b) \
 	writer.write(b);\

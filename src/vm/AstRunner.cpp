@@ -14,12 +14,12 @@
 #include"Exception.hpp"
 #include"String.hpp"
 #include"stmlib.hpp"
-#include"Ast.hpp"
-#include"DataType.hpp"
+#include <stamon/ast.hpp>
+#include <stamon/DataType.hpp>
 #include"ObjectManager.cpp"
-#include"AstIR.cpp"
-#include"SFN.cpp"
-#include"Parser.cpp"
+#include"ir/AstIR.cpp"
+#include"sfn/SFN.cpp"
+#include"compiler/Parser.cpp"
 
 int TMP = 0;
 

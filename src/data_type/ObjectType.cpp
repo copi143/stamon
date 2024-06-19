@@ -11,7 +11,7 @@
 #ifndef OBJECT_CPP
 #define OBJECT_CPP
 
-#include"DataType.hpp"
+#include <stamon/DataType.hpp>
 #include"NumberMap.hpp"
 
 namespace stamon {

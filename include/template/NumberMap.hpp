@@ -17,8 +17,8 @@ template<typename T>
 class NumberMap {
 	public:
 		NumberMap();
-		int put(int s, T* data)	//设置键值
-		int del(int s)	//删除键值
+		int put(int s, T* data);	//设置键值
+		int del(int s);	//删除键值
 		T* get(int s);	//获取值
 		bool containsKey(int s);
 		int clear();

@@ -14,7 +14,7 @@
 #ifndef SEQUENCETYPE_CPP
 #define SEQUENCETYPE_CPP
 
-#include"DataType.hpp"
+#include <stamon/DataType.hpp>
 #include"ArrayList.hpp"
 
 namespace stamon {
